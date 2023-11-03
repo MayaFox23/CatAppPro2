@@ -1,27 +1,27 @@
 body
 {
     color: #270207;
+    background-color: #b0e9ce;
 }
-
-head title
-{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-    font-size: 160%;
-}
-body
-{ 
-    background-color: aqua;
-}
-section
+sectionTitle
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    text-decoration: underline;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: space-between;
+    flex: 1 1;
     font-size: xx-large;
+    flex-wrap: wrap;
 }
