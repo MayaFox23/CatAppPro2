@@ -2,3 +2,26 @@ body
 {
     color: #270207;
 }
+
+head title
+{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 160%;
+}
+body
+{ 
+    background-color: aqua;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
+    font-size: xx-large;
+}
