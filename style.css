@@ -38,3 +38,13 @@ section
     font-size: xx-large;
     flex-wrap: wrap;
 }
+
+#TxtShad 
+{
+    animation: mymove 5s infinite;
+}
+  
+  @keyframes mymove 
+{
+    50% {text-shadow: 10px 20px 30px blue;}
+}
